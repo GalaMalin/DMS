@@ -10,7 +10,8 @@
 	    background: white;
 	    padding: 0;
 	    margin: 0;
-	    font-family: Roboto;		
+	    font-family: Roboto;	
+		color: rgb(1, 66, 51);	
 	 }
 
 	 div, img {
@@ -134,13 +135,32 @@ top: 30px;
 	
 }
 
+.text_4_btn {
+	display: flex;
+	flex-direction: row;
+	text-align: center;	
+	justify-content: space-between;		
+}
+
 .text_4_btn_ {
 	width: 300px;
 	height: 70px;	
 	background-color: white;
-	border: 1px solid rgb(0, 155, 118);
+	border: 1px solid orange;
 	border-radius: 6px;
 	margin: 0px 15px 0px 0px;
+	text-align: center;
+	font-size: 20px;
+	color: rgb(1, 66, 51);
+}
+
+.text_4_btn__ {
+	width: 300px;
+	height: 70px;	
+	background-color: white;
+	border: 1px solid orange;
+	border-radius: 6px;
+	margin: 0px;
 	text-align: center;
 	font-size: 20px;
 	color: rgb(1, 66, 51);
@@ -188,99 +208,39 @@ top: 30px;
 .card_1_end {
 	margin-right: 0px;
 }
- /*
-#ournetContainer {
-width: 1018px;
-left: 50%;
-margin-left: -509px;
-position: relative;
-background: transparent;
-background-image: url('images/letter-backgr.png');
-background-position: bottom;
-background-repeat: no-repeat;
-color: black;
-line-height: 1.4em;
-display: flex;
-min-height: 100vh;
-margin-top: -170px;
+
+.text_6_usl {
+	display: flex;
+	flex-direction: row;
+	text-align: center;	
+	justify-content: space-between;	
+	margin-bottom: 10px;
 }
 
-#ournet {
-min-height: 100%;
-min-width: 100%;
-padding-top: 200px;
+.text_6_btn {
+	width: 150px;
+	height: 50px;	
+	background-color: white;
+	border: 1px solid rgb(0, 155, 118);
+	border-radius: 6px;
+	margin: 0px 15px 0px 0px;
+	text-align: center;
+	font-size: 15px;
+	color: rgb(1, 66, 51);
+	
+}
+.text_6_btn:hover {
+	box-shadow: 2px 2px 2px rgb(0, 155, 118, 0.5);
 }
 
-
-#letter p {
-font-size: medium;
+.text_6_btn_ {
+	width: 150px;
+	height: 50px;	
+	background-color: white;
+	border: 1px solid rgb(0, 155, 118);
+	border-radius: 6px;
+	margin: 0px;
+	text-align: center;
+	font-size: 15px;
+	color: rgb(1, 66, 51);
 }
-	 #grayBar {
-	    position: relative;
-	    background: rgb(232, 232, 232);
-	 }
-
-	    #grayBar img {
-		  width: 1018px;
-		  left: 50%;
-		  margin: 36px 0 36px -509px;
-		  position: relative;
-	    }
-
-	 #whiteBar {
-	    position: relative;
-	    background: #fff;
-	    background-image: url('images/white-bar-img.png');
-	    background-repeat: no-repeat;
-	    background-position: center;
-	    height: 172px;
-	 }
-
-	 #participants {
-	    position: relative;
-	    background: rgb(232, 232, 232);
-	    background-image: url('images/participants-backgr.png');
-	    background-repeat: no-repeat;
-	    background-position: center;
-	    height: 400px;
-	    margin-top: 16px;
-	    padding-top: 36px;
-	 }
-
-	 .partFloater {
-	    width: 380px;
-	    text-align: center;
-	    padding: 10px;
-	    float: left;
-	 }
-
-	    .partFloater p {
-		  font-size: small;
-	    }
-
-	 #buttons {
-	    position: relative;
-	    background: #fff;
-	    padding-bottom: 1.2em;
-	 }
-
-	 .winnerList {
-	    margin: 2em auto 0 auto;
-	    font-weight: bold;
-	    border-collapse: collapse;
-	    border: none;
-	 }
-
-	 .winnerList tr td {
-		  border: none;
-		  padding: .2em 1em;
-	    }
-
-	 #finals {
-	    margin-top: 1em;
-	 }
-
-      h1 {
-         color: #ff7e00;
-	 line-height: 1.2em;
-      }*/
