@@ -164,16 +164,16 @@ button {
 
 .arrow-prev{
     left:0;
-    background: url("pic/arrow-left.png") 50%50%/20px no-repeat;
+    background: url("arrow-left.png") 50%50%/20px no-repeat;
 }
 
 .arrow-next{
-    background: url("pic/arrow-right.png") 50%50%/20px no-repeat;
+    background: url("arrow-right.png") 50%50%/20px no-repeat;
     right:0;
 }
 
 .light.arrow{
-    background:url("PIC/arrow-left.PNG")50%50%/20px no-repeat;
+    background:url("arrow-left.PNG")50%50%/20px no-repeat;
 }
     
 
