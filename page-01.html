@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+	<head>
+    	<title>For Loops</title>
+    </head>
+    <body>
+    	<p id="colourList"></p>
+          <script type="text/javascript">
+            
+            var tweets = ["Red", "Yellow", "Blue"]
+            var text = "";
+            var i;
+            for (var i = 0; i < tweets.length; i++) {
+                text += tweets[i] + " ";
+            }
+            
+            document.getElementById("colourList").innerHTML = text; 
+            
+      	</script>
+
+
+    	<p id="count"></p>
+          <script type="text/javascript">
+            
+            var y = 0;
+            var number = "";
+            while (y < 6) {
+                number += "как" + y;
+                y++;
+            }
+            document.getElementById("count").innerHTML = number;         
+            
+      	</script>
+
+          
+          <div id="reds" style="
+          height:100px;
+          width:100px;
+          border-radius: 50%;
+          background-color: red;
+          border: none;
+          cursor: pointer;">
+          </div>
+      
+          <script>
+              document.getElementById("reds").onclick = function() {
+                  document.getElementById("reds").style.display = "none";
+              }
+          </script>
+
+    </body>
+</html>
