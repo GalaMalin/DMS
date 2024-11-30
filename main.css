@@ -162,6 +162,11 @@ button {
     z-index: 2;
 }
 
+.arrow img {
+    width: 50%;
+    margin-top: 100%;
+}
+
 .arrow-prev{
     left:0;
     background: url("arrow-left.png") 50%50%/20px no-repeat;
