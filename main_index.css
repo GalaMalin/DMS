@@ -91,9 +91,15 @@ button {
     position: relative;    
 }
 
+.center_img-block img {    
+    max-width: 100%;
+    object-fit: cover;      
+}
+
 .center_btn {
     width: 20rem;
     height: 6rem;
+    max-width: 100%;
     border: 1px solid orange;
     border-radius: 60px;
     font-size: 35px;
