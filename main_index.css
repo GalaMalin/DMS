@@ -12,11 +12,15 @@ body, p {
     box-sizing: border-box;
 }
 
+* { 
+-webkit-tap-highlight-color: transparent;
+}
+
 a {    
     text-decoration: none;  
     color: inherit;
     cursor: pointer;    
-    transition: opacity 0.2s;
+    transition: opacity 0.2s;    
 }
 
 button {
@@ -139,6 +143,10 @@ button {
     margin: 0px 10px 5px 10px;
     border: #A2A5D9 solid 1px;
     border-radius: 5px;    
+}
+
+.center_img-block-m {
+    display: none;
 }
 
 /* Карточки*/
@@ -312,7 +320,10 @@ button {
     .main-center {
         width: 100%;
     }
-    .center_img-block {   
+    .center_img-block {
+        display: none;
+    }    
+    .center_img-block-m{   
         display: flex;
         flex-direction: column;
         justify-self: center;
@@ -328,9 +339,32 @@ button {
     .center_img-block img {  
         display: none;
     }
-    .main-centre-inner {
+    .card-z {
         display: none;
+        width: 100%;
+        height: max-content;
     }
+    .card-o {
+        display: none;
+        width: 100%;
+        height: max-content;
+    }
+    .card-r {
+        display: none;
+        width: 100%;
+        height: max-content;
+    }
+    .card-s {
+        display: none;
+        width: 100%;
+        height: max-content;
+    }
+
+    .main-centre-inner {
+        /* display: none; */
+        border: none;
+    }
+
     .main-right {
         width: 100%;
     }

@@ -24,7 +24,7 @@
 
     <div class="container main-inner">       
         
-        <!-- Центр -->
+        <!-- Левая часть: линия, название, линия, картинка с кнопками -->
 
         <div class="main-center">
             <div class="container header-line"></div>
@@ -33,18 +33,24 @@
             </div>
             <div class="container header-line"></div>
 
-            <div class="center_img-block">
+            <div class="center_img-block" id="block-full">
                 <img src="Fon.png" alt="">
                 <button class="center_btn center_btn-z"><a target="_blank" href="index_dms.html">Здоровье</a></button>
                 <button class="center_btn center_btn-o"><a target="_blank" href="start.html">Обучение</a></button>
                 <button class="center_btn center_btn-r">Развлечения</button>
                 <button class="center_btn center_btn-s">Спорт</button>
             </div>
+            <div class="center_img-block-m" id="block-mob">                
+                <button class="center_btn center_btn-z" id="center_btn-zz">Здоровье</button>
+                <button class="center_btn center_btn-o" id="center_btn-oo">Обучение</button>
+                <button class="center_btn center_btn-r" id="center_btn-rr">Развлечения</button>
+                <button class="center_btn center_btn-s" id="center_btn-ss">Спорт</button>
+            </div>
     
                
             <div class="main-centre-inner">    
                 <div class="main-centre-card">
-                    <div class="card">
+                    <div class="card card-z">
                         <div class="card-img">
                             <a target="_blank" href="index_dms.html"><img src="z_.png" alt=""></a>
                         </div>
@@ -56,7 +62,7 @@
                         </div>    
                     </div>    
                 
-                    <div class="card">
+                    <div class="card card-o">
                         <div class="card-img">
                             <a target="_blank" href="start.html"><img src="o_.png" alt=""></a>
                         </div>
@@ -68,7 +74,7 @@
                         </div>    
                     </div>    
                 
-                    <div class="card">
+                    <div class="card card-r">
                         <div class="card-img">
                             <a target="_blank" href=""><img src="r_.png" alt=""></a>
                         </div>
@@ -81,7 +87,7 @@
                         </div>    
                     </div>    
                 
-                    <div class="card">
+                    <div class="card card-s">
                         <div class="card-img">
                             <a target="_blank" href=""><img src="s_.png" alt=""></a>
                         </div>
@@ -97,7 +103,7 @@
             </div>        
         </div>
     
-        <!-- Правая панель -->
+        <!-- Правая часть -->
         <div class="main-right">
             <div class="main-right-block cal-block">    
                 <table id="calendar2">                    
@@ -171,8 +177,16 @@
                             <img src="pic_bell.PNG" alt="">                        
                         </div>
                         <div class="main-right-block-text text-a">
-                            <a href="#modal-0">Приглашаем зарегистрироваться на Интеллектуальную игру 22 февраля</a>
-                            </div>
+                            <a name="#modal-0">Приглашаем зарегистрироваться на Интеллектуальную игру 22 февраля</a>
+                        </div>
+                    </div>                   
+    
+                    <div class="main-right-block-news">
+                        <div class="main-right-block-pic">
+                            <img src="pic_bell.PNG" alt="">                        
+                        </div>
+                        <div class="main-right-block-text text-a">
+                            <a name="#modal-0">Приглашаем зарегистрироваться на Путешествие в Амстердам 4 марта</a>
                         </div>
                     </div>
     
@@ -181,22 +195,14 @@
                             <img src="pic_bell.PNG" alt="">                        
                         </div>
                         <div class="main-right-block-text text-a">
-                            <a href="#modal-0">Приглашаем зарегистрироваться на Путешествие в Амстердам 4 марта</a>
+                            <a name="#modal-0">Приглашаем зарегистрироваться на курс "Активный сотрудник"</a>
                         </div>
                     </div>
-    
-                    <div class="main-right-block-news">
-                        <div class="main-right-block-pic">
-                            <img src="pic_bell.PNG" alt="">                        
-                        </div>
-                        <div class="main-right-block-text text-a">
-                            <a href="#modal-0">Приглашаем зарегистрироваться на курс "Активный сотрудник"</a>
-                        </div>
-                    </div>
-                </div>                
-            </div>        
+                </div>
+            </div>                
         </div>        
-    </div>
+    </div>        
+
     
     <!-- Подвал -->
     <footer>
@@ -207,7 +213,7 @@
     </footer>
     
     <!-- Модальное окно -->
-    <div id="modal-0" class="modal-o">
+    <!-- <div id="modal-0" class="modal-o">
         <div class="modal-inner">
             <div class="main-right-block-h">Форма регистрации</div>
             <form action="">
@@ -225,12 +231,13 @@
             </form>
         </div>
         
-    </div>
+    </div> -->
     
     
     
     
     <script src="calendar.js"></script>
+    <script src="main.js"></script>
     
     <!-- Скрипт на закрытие модального окна. Но закрывает насовсем и почему-то всплывает без нажатия 
     <script>
